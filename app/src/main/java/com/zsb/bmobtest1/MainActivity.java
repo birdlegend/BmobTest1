@@ -2,6 +2,7 @@ package com.zsb.bmobtest1;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -93,6 +94,7 @@ public class MainActivity extends Activity {
                         Toast.makeText(MainActivity.this, "delete数据成功", Toast.LENGTH_SHORT).show();
                         
                         //for test of renew github
+                        Log.i("Tag", "test2");
                     }
 
                     @Override
