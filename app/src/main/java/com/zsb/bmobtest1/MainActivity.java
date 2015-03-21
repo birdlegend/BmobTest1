@@ -93,7 +93,7 @@ public class MainActivity extends Activity {
                     public void onSuccess() {
                         Toast.makeText(MainActivity.this, "delete数据成功", Toast.LENGTH_SHORT).show();
                         
-                        //for test of renew github
+                        //for test of renew 
                         Log.i("Tag", "test2");
                     }
 
