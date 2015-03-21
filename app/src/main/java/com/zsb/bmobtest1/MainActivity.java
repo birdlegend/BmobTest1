@@ -91,6 +91,8 @@ public class MainActivity extends Activity {
                     @Override
                     public void onSuccess() {
                         Toast.makeText(MainActivity.this, "delete数据成功", Toast.LENGTH_SHORT).show();
+                        
+                        //for test of renew github
                     }
 
                     @Override
